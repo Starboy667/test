@@ -4,4 +4,4 @@ echo "Entrez votre message"
 read message
 git commit -m "$message" 
 git pull
-git push -u origin master
+git push
