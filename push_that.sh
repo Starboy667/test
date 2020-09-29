@@ -1,5 +1,6 @@
 #!/bin/bash
-git add .
-git commit -m "S?"
-git status
+git add -A
+read -s message
+git commit -m "$message" 
+git pull
 git push -u origin master
